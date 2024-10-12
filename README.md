@@ -19,4 +19,6 @@ This project is completed as a part of a training program
 ## Migration Errors
     - When ran the server for the first time, the following errors will occur
       as we need to migrate the configurations.
-      ![screenshot](images/Screenshot 2024-10-11 at 7.23.38 PM.png)
+    - To remove the errors :
+        - python manage.py makemigrations
+        - python manage.py migrate
