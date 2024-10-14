@@ -40,3 +40,11 @@ This project is completed as a part of a training program
       directory will be created and the template of the respective apps will be stored in their respective directories.
     - The path to the Templates should be registered in the settings.py
     - "DIRS": [BASE_DIR/'Templates']
+
+## Models & Admin
+    - Create a superuser
+        - python manage.py createsuperuser
+        - The above command will prompt to enter the username, email and    
+          password to create the admin.
+        - Can be verified by signing-in as admin at
+          http://127.0.0.1:8000/admin/
